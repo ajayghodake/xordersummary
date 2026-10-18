@@ -43,6 +43,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction:column;
 
   padding: 20px;
 }
@@ -201,6 +202,25 @@ img {
 
 .cancel-order:hover {
   color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.attribution p {
+  color: #1a1a1b;
+  font-family: 'Outfit', sans-serif;
+}
+
+.attribution a {
+  color: #6677bc;
+  transition: color 0.3s;
+}
+
+.attribution a:hover {
+  color: #062293;
 }
 
 
