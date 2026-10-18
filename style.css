@@ -24,25 +24,15 @@ body {
   background-size: 100% auto;
   /* background-position: center; */
   /* overflow:hidden; */
-    /* margin: 0; */
+  /* margin: 0; */
   min-height: 100vh;
-
 }
-
 
 img {
   display: block;
   max-width: 100%;
 }
 
-/* a {
-  text-decoration: none;
-  color: inherit;
-} */
-
-/* .main {
-
-} */
 .container {
   width: 360px;
   /* height: 520px; */
@@ -78,11 +68,12 @@ img {
 }
 
 .summary-para {
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
-  line-height: 18px; 
+  line-height: 18px;
   color: hsl(224, 23%, 55%);
   /* margin-bottom: 10px; */
+  padding: 0px 14px 0px 14px;
 }
 
 .plan-info {
@@ -90,33 +81,35 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px  0px 20px 0px;
+  margin: 20px 0px 20px 0px;
   padding: 20px;
   /* gap: 20px; */
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
-.plan-text{
-    margin-right:30px;
+.plan-text {
+  margin-right: 30px;
 }
-.plan-icon{
+.plan-icon {
   /* margin-right: 20px; */
   width: 45px;
-  margin-right:15px;
+  margin-right: 15px;
 }
-
+#plan-name{
+  font-size:15px;
+}
 #change {
-font-size: 14px;
-/* font-weight: 600; */
+  font-size: 14px;
+  /* font-weight: 600; */
 }
 
-.proceed-btn{
+.proceed-btn {
   width: 90%;
   height: 36px;
   border: none;
   border-radius: 10px;
   /* background: hsl(245, 75%, 52%); */
-  background: #3829E0;
+  background: #3829e0;
   color: #fff;
   font-family: "Red Hat Display", sans-serif;
   font-size: 14px;
@@ -125,14 +118,16 @@ font-size: 14px;
   box-shadow: 0 20px 30px rgba(80, 90, 230, 0.3);
   transition: background 0.3s;
 }
-.proceed-btn:hover { background: hsla(247, 39%, 17%, 0.651); }
+.proceed-btn:hover {
+  background: hsla(247, 39%, 17%, 0.651);
+}
 
-.cancel-order{
-  width:90%;
-  height: 60px;
+.cancel-order {
+  width: 90%;
+  height: 55px;
   background-color: transparent;
   font-family: "Red Hat Display", sans-serif;
-  color: #959EBE;
+  color: #959ebe;
   font-size: 16px;
   padding: 10px;
   border: none;
@@ -140,16 +135,36 @@ font-size: 14px;
   cursor: pointer;
   transition: color 0.3s;
 }
-.cancel-order:hover{
+.cancel-order:hover {
   color: rgba(3, 1, 74, 0.753);
-   border-radius: 8px;
+  border-radius: 8px;
 }
-
 
 @media (max-width: 450px) {
   body {
     background-image: url("assets/pattern-background-mobile.svg");
     background-size: 100% auto;
-    overflow:hidden;
+    overflow-X: hidden;
+  }
+
+
+
+  .text-container {
+    padding: 0px 40px 0px 40px;
+  }
+
+  .heading {
+  font-size: 12px;
+  }
+
+  .summary-para {
+    font-size: 16px;
+  }
+#plan-name {
+    font-size: 16px;
+}
+  .proceed-btn {
+    width: 100%;
+    height: 45px;
   }
 }
