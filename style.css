@@ -178,7 +178,7 @@ img {
 }
 
 .proceed-btn:hover {
-  background-color: hsl(245, 75%, 65%);
+  background-color: hsla(251, 47%, 31%, 0.742);
 }
 
 .proceed-btn:active {
