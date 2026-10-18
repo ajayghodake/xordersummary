@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -146,8 +148,6 @@ img {
     background-size: 100% auto;
     overflow-X: hidden;
   }
-
-
 
   .text-container {
     padding: 0px 40px 0px 40px;
