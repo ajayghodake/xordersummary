@@ -142,11 +142,11 @@ img {
 }
 
 
-.plan-change {
+.change-link {
   flex-shrink: 0;
 }
 
-#change {
+.change-link a{
   font-family: "Red Hat Display", sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -155,7 +155,7 @@ img {
   transition: color 0.3s ease;
 }
 
-#change:hover {
+.change-link a:hover {
   color: hsl(245, 83%, 68%);
   text-decoration: none;
 }
@@ -270,7 +270,7 @@ img {
     font-size: 13px;
   }
 
-  #change {
+  .change-link a  {
     font-size: 13px;
   }
 
